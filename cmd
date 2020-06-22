@@ -1,0 +1,1 @@
+python setup.py bdist_wotmod --python27="C:\Python27\python.exe"
