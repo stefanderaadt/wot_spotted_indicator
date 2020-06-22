@@ -1,10 +1,6 @@
-# Hello World mod example
+# Wot Spotted Status mod
 
-This example demonstrates how to create a simple World of Tanks modification.
-The code shows how to:
- - Print to python.log,
- - Load files from within wotmod package, and
- - React to game start up and shutdown
+A simple mod to keep track of who has been spotted in the enemy team
 
 ## Installation
 
@@ -14,7 +10,7 @@ Within the example's directory execute command:
 python setup.py bdist_wotmod
 ```
 
-This will produce `johndoe.helloworld_01.00.wotmod` file to `dist` subdirectory.
+This will produce `klokklokz.spotted_status.00.01.00.wotmod` file to `dist` subdirectory.
 Copy the file to `mods/<current version>` directory under game's directory.
 
 You may also install the wotmod to the game with one command by changing the
@@ -38,10 +34,7 @@ Or in bash:
     tail -f '<game dir>/python.log'
 ```
 
-Start the game, and after a while shut it down, and you should see HelloWorld
-embracing the world :)
-
 ## License
 
 This example is licensed under WTFPL license, for more info, see:
-  http://www.wtfpl.net/about/
+http://www.wtfpl.net/about/
